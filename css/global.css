@@ -1,0 +1,52 @@
+/* importeert de font 'Roboto' vanuit google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+/* alle kleuren in variables zetten */
+:root {
+	--color-orange: #E87A31;
+	--color-yellow: #FCD902;
+	--color-brown: #675B52;
+	--color-gray: #8D857F;
+	--color-gray-light: #9E9A9A;
+	--color-gray-background: #F7F7F6;
+	--color-red: #D62B22;
+	--color-blue: #62ADE0;
+	--color-black: #000;
+	--color-white: #fff;
+	--color-shadow: rgba(169,169,169,0.5);
+	--color-shadow-black: rgba(0,0,0,0.5);
+	--color-shadow-orange: rgba(232, 122, 49, 1);
+}
+
+/* globale css styling, overschrijven deafult styling van de html elementen */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+button {
+	background-color: var(--color-white);
+	box-shadow: 0px 2px 9px 0 var(--color-shadow);
+	border: none;
+	text-align: center;
+	padding: 10px 20px;
+	min-width: 150px;
+	border-radius: 9px;
+	cursor: pointer;
+}
+
+input {
+	accent-color: var(--color-blue);
+}
+

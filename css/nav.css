@@ -1,0 +1,164 @@
+.nav-sticky {
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 80px;
+	width: 100%;
+	z-index: 100;
+}
+
+.nav-fake {
+	height: 80px;
+}
+
+.nav-sub {
+	background-color: var(--color-black);
+	color: var(--color-white);
+}
+
+.nav-sub-wrapper {
+	height: 30px;
+	padding: 0 15px;
+	max-width: 1140px;
+	width: 100%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+@media screen and (min-width: 450px) {
+	.nav-sub-wrapper {
+		justify-content: space-between;
+	}
+}
+
+.nav-sub p:nth-child(2) {
+	display: none;
+}
+
+.nav-sub p:nth-child(3) {
+	display: none;
+}
+
+@media screen and (min-width: 450px) {
+	.nav-sub p:nth-child(2) {
+		display: block;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.nav-sub p:nth-child(3) {
+		display: block;
+	}
+}
+
+.nav {
+	background: var(--color-brown);
+}
+
+.nav-wrapper {
+	height: 50px;
+	color: var(--color-white);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 15px;
+	max-width: 1140px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.nav-hamburger {
+	display: flex;
+	align-content: center;
+}
+
+@media screen and (min-width: 768px) {
+	.nav-hamburger {
+		display: none;
+	}
+}
+
+.nav-hamburger i {
+	padding-right: 8px;
+}
+
+.nav-logo {
+	display: block;
+	height: 33px;
+}
+
+.nav-logo img {
+	height: 100%;
+	width: auto;
+}
+
+.nav-menu {
+	height: 33px;
+	display: flex;
+	align-items: center;
+}
+
+.nav-menu-item {
+	position: relative;
+}
+
+.nav-menu-item:not(:last-of-type) {
+	margin-right: 24px;
+}
+
+.nav i {
+	font-size: 19px;
+}
+
+.nav-menu-item-text {
+	display: none;
+}
+
+@media screen and (min-width: 768px) {
+	.nav-menu-item-text {
+		display: inline-block;
+	}
+}
+
+.nav-menu-item .nav-menu-item-icon {
+	padding-right: 8px;
+}
+
+.nav-menu-usability {
+	height: 33px;
+	padding-left: 25px;
+	margin-left: 25px;
+	border-left: 1px solid var(--color-white);
+	align-items: center;
+	display: none;
+}
+
+@media screen and (min-width: 768px) {
+	.nav-menu-usability {
+		display: flex;
+	}
+}
+
+.nav-menu-usability .nav-menu-item .nav-menu-item-subscript {
+	vertical-align: baseline;
+}
+
+.favourite-count {
+	position: absolute;
+	font-size: 12px;
+	background-color: var(--color-orange);
+	width: 15px;
+	height: 15px;
+	line-height: 15px;
+	text-align: center;
+	border-radius: 50%;
+	top: 0;
+	right: 0;
+	transform: translate(70%, -30%);
+}
+
+.favourite-count.is-hidden {
+	display: none;
+}

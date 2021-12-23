@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>U-OV</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href="./css/global.css">
+	<link rel="stylesheet" href="./css/nav.css">
+	<link rel="stylesheet" href="./css/index.css">
+
+</head>
+<body>
+	<div class="nav-fake"></div>
+	<nav class="nav-sticky">
+		<section class="nav-sub">
+			<div class="nav-sub-wrapper">
+				<p>Verhalen voor onderweg*</p>
+				<p>Kies jouw verhaal*</p>
+				<p>Reisplezier*</p>
+			</div>
+		</section>
+		<div class="nav">
+			<div class="nav-wrapper">
+				<a href="#" class="nav-hamburger">
+					<i class="fas fa-bars"></i> menu
+				</a>
+				<a href="index.html" class="nav-logo">
+					<img src="./assets/u-ov.png" alt="U-OV">
+				</a>
+				<div class="nav-menu">
+					<a href="#" class="nav-menu-item">
+						<i class="fas fa-search nav-menu-item-icon"></i> <span class="nav-menu-item-text">Zoeken</span>
+					</a>
+					<a href="#" class="nav-menu-item">
+						<i class="far fa-user nav-menu-item-icon"></i> <span class="nav-menu-item-text">mijn U-OV</span>
+						<span class="favourite-count is-hidden">0</span> 
+					</a>
+					<div class="nav-menu-usability">
+						<a href="#" class="nav-menu-item">
+							<i class="fas fa-adjust"></i>
+						</a>
+						<a href="#" class="nav-menu-item">
+							<sub class="nav-menu-item-subscript">A</sub>A
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</nav>
+
+	<header class="header">
+		<div class="header-wrapper">
+			<section class="header-filter">
+					<i class="header-arrow fas fa-chevron-down"></i>
+					<span class="header-filter-subtitle">
+						Genereer jouw verhaal!
+					</span>
+					<h2>
+						Kies maximaal 2 sfeerworden
+					</h2>
+					<section class="header-filter-grid">
+						<div class="header-filter-grid-wrapper">
+							<button class="header-filter-grid-item">
+								Vrolijk
+							</button>
+							<button class="header-filter-grid-item">
+								Aggressief
+							</button>
+							<button class="header-filter-grid-item">
+								Romantisch
+							</button>
+							<button class="header-filter-grid-item">
+								Angst
+							</button>
+							<button class="header-filter-grid-item">
+								Verward
+							</button>
+							<button class="header-filter-grid-item">
+								Bedroefd
+							</button>
+							<button class="header-filter-grid-item header-filter-generate">
+								Genereer!
+							</button>
+						</div>
+
+					</section>
+			</section>
+			<!-- <article class="article">
+				<figure class="article-head">
+					<img src="./assets/verhaal1.jpg" alt="Stijloefeningen (16) - Eric Lucassen">
+				</figure>
+				<div class="article-body">
+					<div class="article-body-info">
+						<div>
+							2.341 <i class="far fa-eye"></i>
+						</div>
+						<div>
+							5.0 
+							<span class="article-body-info-stars">
+								<i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+							</span>
+						</div>
+					</div>
+					<div class="article-body-title">
+						<h4>
+							Stijloefeningen (16) - Eric Lucassen
+						</h4>
+						<i class="far fa-heart"></i>
+					</div>
+					<p class="article-body-author">Posted on 22 februiari 2021 by Molovich</p>
+					<p class="article-body-excerpt">
+						Ik stap bus 21 uit terwijl ik mnijn zoon op nog geen halve meter hinderlijk achtervolg...
+					</p>
+					<div class="article-body-category">
+						<p>Sfeerwoord(en): Aggressief</p>
+						<p>Genre: Psychologisch verhaal</p>
+					</div>
+					<a href="./detail.html" class="article-body-link">
+						Lees het hele bericht (5 minuten)
+					</a>
+				</div>
+			</article> -->
+		</div>
+	</header>
+
+	<main>
+		<div class="main-grid">
+			<section class="main-search">
+				<input type="text" name="searchStory" id="search-story" placeholder="Zoek jouw verhaal...">
+			</section>
+			<section class="main-filter">
+				<h5 class="main-filter-title">Filters</h5>
+				<div class="main-filter-container">
+					<div class="main-filter-reading">
+						<h6 class="main-filter-sub-title">
+							Leesduur (minuten)
+						</h6>
+						<input type="range" value="0" name="readingTime" min="0" max="8" id="reading-time">
+						<ul class="main-filter-reading-number">
+							<li class="main-filter-reading-number-item">0</li>
+							<li class="main-filter-reading-number-item">1</li>
+							<li class="main-filter-reading-number-item">2</li>
+							<li class="main-filter-reading-number-item">3</li>
+							<li class="main-filter-reading-number-item">4</li>
+							<li class="main-filter-reading-number-item">5</li>
+							<li class="main-filter-reading-number-item">6</li>
+							<li class="main-filter-reading-number-item">7</li>
+							<li class="main-filter-reading-number-item">8</li>
+						</ul>
+					</div>
+					<div class="main-filter-checkbox">
+						<h6 class="main-filter-sub-title">
+							Genres
+						</h6>
+						<div class="main-filter-checkbox-option">
+							<input type="checkbox" name="genres" value="biografie">
+							<span class="checkbox-filter-checkbox-option-box"></span>
+							<span>Biografie</span>
+						</div>
+						<div class="main-filter-checkbox-option">
+							<input type="checkbox" name="genres" value="detective">
+							<span class="checkbox-filter-checkbox-option-box"></span>
+							<span>Detective</span>
+						</div>
+						<div class="main-filter-checkbox-option">
+							<input type="checkbox" name="genres" value="erotiek">
+							<span class="checkbox-filter-checkbox-option-box"></span>
+							<span>Erotiek</span>
+						</div>
+						<div class="main-filter-checkbox-option">
+							<input type="checkbox" name="genres" value="griezelverhaal">
+							<span class="checkbox-filter-checkbox-option-box"></span>
+							<span>Griezelverhaal</span>
+						</div>
+						<div class="main-filter-checkbox-option">
+							<input type="checkbox" name="genres" value="historisch">
+							<span class="checkbox-filter-checkbox-option-box"></span>
+							<span>Historisch</span>
+						</div>
+						<div class="main-filter-checkbox-option">
+							<input type="checkbox" name="genres" value="humor">
+							<span class="checkbox-filter-checkbox-option-box"></span>
+							<span>Humor</span>
+						</div>
+						<div class="main-filter-checkbox-option">
+							<input type="checkbox" name="genres" value="psychologisch">
+							<span class="checkbox-filter-checkbox-option-box"></span>
+							<span>Psychologisch</span>
+						</div>
+						<div class="main-filter-checkbox-option">
+							<input type="checkbox" name="genres" value="romantisch">
+							<span class="checkbox-filter-checkbox-option-box"></span>
+							<span>Romantisch</span>
+						</div>
+						<div class="main-filter-checkbox-option">
+							<input type="checkbox" name="genres" value="science-fiction">
+							<span class="checkbox-filter-checkbox-option-box"></span>
+							<span>Science fiction</span>
+						</div>
+						<div class="main-filter-checkbox-option">
+							<input type="checkbox" name="genres" value="social">
+							<span class="checkbox-filter-checkbox-option-box"></span>
+							<span>Sociaal politiek</span>
+						</div>
+						<div class="main-filter-checkbox-option">
+							<input type="checkbox" name="genres" value="spanning-avontuur">
+							<span class="checkbox-filter-checkbox-option-box"></span>
+							<span>Spanning en avontuur</span>
+						</div>
+						<div class="main-filter-checkbox-option">
+							<input type="checkbox" name="genres" value="waargebeurd">
+							<span class="checkbox-filter-checkbox-option-box"></span>
+							<span>Waargebeurd</span>
+						</div>
+						<div class="main-filter-checkbox-option">
+							<input type="checkbox" name="genres" value="western">
+							<span class="checkbox-filter-checkbox-option-box"></span>
+							<span>Western</span>
+						</div>
+					</div>
+					<div class="main-filter-checkbox">
+						<h6 class="main-filter-sub-title">
+							Emotie
+						</h6>
+						<div class="main-filter-checkbox-option">
+							<input type="checkbox" name="emotion" value="aggressief">
+							<span class="checkbox-filter-checkbox-option-box"></span>
+							<span>Aggressief</span>
+						</div>
+						<div class="main-filter-checkbox-option">
+							<input type="checkbox" name="emotion" value="angst">
+							<span class="checkbox-filter-checkbox-option-box"></span>
+							<span>Angst</span>
+						</div>
+						<div class="main-filter-checkbox-option">
+							<input type="checkbox" name="emotion" value="bang">
+							<span class="checkbox-filter-checkbox-option-box"></span>
+							<span>Bang</span>
+						</div>
+						<div class="main-filter-checkbox-option">
+							<input type="checkbox" name="emotion" value="bedroefd">
+							<span class="checkbox-filter-checkbox-option-box"></span>
+							<span>Bedroefd</span>
+						</div>
+						<div class="main-filter-checkbox-option">
+							<input type="checkbox" name="emotion" value="horror">
+							<span class="checkbox-filter-checkbox-option-box"></span>
+							<span>Horror</span>
+						</div>
+						<div class="main-filter-checkbox-option">
+							<input type="checkbox" name="emotion" value="kalm">
+							<span class="checkbox-filter-checkbox-option-box"></span>
+							<span>Kalm</span>
+						</div>
+						<div class="main-filter-checkbox-option">
+							<input type="checkbox" name="emotion" value="ongemak">
+							<span class="checkbox-filter-checkbox-option-box"></span>
+							<span>Ongemak</span>
+						</div>
+						<div class="main-filter-checkbox-option">
+							<input type="checkbox" name="emotion" value="plezierig">
+							<span class="checkbox-filter-checkbox-option-box"></span>
+							<span>Plezierig</span>
+						</div>
+						<div class="main-filter-checkbox-option">
+							<input type="checkbox" name="emotion" value="romantisch">
+							<span class="checkbox-filter-checkbox-option-box"></span>
+							<span>Romantisch</span>
+						</div>
+						<div class="main-filter-checkbox-option">
+							<input type="checkbox" name="emotion" value="sympathie">
+							<span class="checkbox-filter-checkbox-option-box"></span>
+							<span>Sympathie</span>
+						</div>
+						<div class="main-filter-checkbox-option">
+							<input type="checkbox" name="emotion" value="verveling">
+							<span class="checkbox-filter-checkbox-option-box"></span>
+							<span>Verveling</span>
+						</div>
+						<div class="main-filter-checkbox-option">
+							<input type="checkbox" name="emotion" value="verward">
+							<span class="checkbox-filter-checkbox-option-box"></span>
+							<span>Verward</span>
+						</div>
+						<div class="main-filter-checkbox-option">
+							<input type="checkbox" name="emotion" value="vrolijk">
+							<span class="checkbox-filter-checkbox-option-box"></span>
+							<span>Vrolijk</span>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="main-sort">
+				<button class="main-sort-button">
+					Sorteer <i class="main-sort-button-icon fas fa-sync-alt"></i>
+				</button>
+				<div class="main-sort-text">
+					<p class="main-sort-text-count">
+						99 resultaten
+					</p>
+					<p>
+						Verhalen voor u
+					</p>
+				</div>
+			</section>
+			<section class="main-result">
+				<article class="article">
+					<figure class="article-head">
+						<img src="./assets/Verhaal1.png" alt="Stijloefeningen (16) - Eric Lucassen">
+					</figure>
+					<div class="article-body">
+						<div class="article-body-info">
+							<div>
+								2.341 <i class="far fa-eye"></i>
+							</div>
+							<div>
+								5.0 
+								<span class="article-body-info-stars">
+									<i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+								</span>
+							</div>
+						</div>
+						<div class="article-body-title">
+							<h4>
+								Stijloefeningen (16) - Eric Lucassen
+							</h4>
+							<i class="far fa-heart"></i>
+						</div>
+						<p class="article-body-author">Posted on 22 februari 2012 by Molovich</p>
+						<p class="article-body-excerpt">
+							Ik stap bus 21 uit terwijl ik mijn zoon op nog geen halve meter hinderlijk achtervolg. De gore klootzak heeft eenuur geleden in z’n luier gescheten en dat pik ik niet. Maar hij slaapt, de hond. Hordes teringlijers en … 
+						</p>
+						<div class="article-body-category">
+							<p>Sfeerwoord(en): Aggressief</p>
+							<p>Genre: Psychologisch verhaal</p>
+						</div>
+						<a href="./detail.html" class="article-body-link">
+							Lees het hele bericht (5 minuten)
+						</a>
+					</div>
+				</article>
+				<article class="article">
+					<figure class="article-head">
+						<img src="./assets/Verhaal2.png" alt="Stijloefeningen (16) - Eric Lucassen">
+					</figure>
+					<div class="article-body">
+						<div class="article-body-info">
+							<div>
+								1.232 <i class="far fa-eye"></i>
+							</div>
+							<div>
+								5.0 
+								<span class="article-body-info-stars">
+									<i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+								</span>
+							</div>
+						</div>
+						<div class="article-body-title">
+							<h4>
+								Stijloefeningen (55) - Van vader tot zoon
+							</h4>
+							<i class="far fa-heart"></i>
+						</div>
+						<p class="article-body-author">Posted on 19 april 2011 by Molovich</p>
+						<p class="article-body-excerpt">
+							Je ligt vredig in je wagen te slapen als ik de bus uitstap op die druilerige dag in februari van het jaar 2011. In je groene wagentje. (Daar wil je inmiddels, nu ik dit schrijf, niet meer in. Je wilt zelf lopen…</p>
+						<div class="article-body-category">
+							<p>Sfeerwoord(en): Wisselend</p>
+							<p>Genre: Psychologisch verhaal</p>
+						</div>
+						<a href="./detail.html" class="article-body-link">
+							Lees het hele bericht (5 minuten)
+						</a>
+					</div>
+				</article>
+				<article class="article">
+					<figure class="article-head">
+						<img src="./assets/Verhaal3.png" alt="Stijloefeningen (57) - Paranoia">
+					</figure>
+					<div class="article-body">
+						<div class="article-body-info">
+							<div>
+								2.512 <i class="far fa-eye"></i>
+							</div>
+							<div>
+								5.0 
+								<span class="article-body-info-stars">
+									<i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+								</span>
+							</div>
+						</div>
+						<div class="article-body-title">
+							<h4>
+								Stijloefeningen (57) - Paranoia
+							</h4>
+							<i class="far fa-heart"></i>
+						</div>
+						<p class="article-body-author">Posted on 22 februiari 2021 by Molovich</p>
+						<p class="article-body-excerpt">
+							Ik sluip de bus uit. Kop in de kraag. Ik maak me klein en duw m’n zoon vooruit. Hij slaapt. Eindelijk. Zijn gejengel trok veel te veel aandacht. De mensen lopen over het stationsplein. Het voelt alsof er een grote…
+						</p>
+						<div class="article-body-category">
+							<p>Sfeerwoord(en): Paranoia, Gevangen</p>
+							<p>Genre: Detective</p>
+						</div>
+						<a href="./detail.html" class="article-body-link">
+							Lees het hele bericht (5 minuten)
+						</a>
+					</div>
+				</article>
+				<article class="article">
+					<figure class="article-head">
+						<img src="./assets/Verhaal4.png" alt="Stijloefeningen (34) - Iphone">
+					</figure>
+					<div class="article-body">
+						<div class="article-body-info">
+							<div>
+								1.248 <i class="far fa-eye"></i>
+							</div>
+							<div>
+								5.0 
+								<span class="article-body-info-stars">
+									<i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+								</span>
+							</div>
+						</div>
+						<div class="article-body-title">
+							<h4>
+								Stijloefeningen (34) - Iphone
+							</h4>
+							<i class="far fa-heart"></i>
+						</div>
+						<p class="article-body-author">Posted on 21 maart 2011 by Molovich</p>
+						<p class="article-body-excerpt">
+							Om een uur of 12 stapte ik op CS bus 21 uitomdat ik naar de Ipenbare Bibliotheek op weg was, waar ik Stijloefeningen van Q-No wilde lenen. Was ik al een tijdje naar op zoek. Kutweer’ dat het…
+						</p>
+						<div class="article-body-category">
+							<p>Sfeerwoord(en): Wisselend</p>
+							<p>Genre: Psychologisch verhaal</p>
+						</div>
+						<a href="./detail.html" class="article-body-link">
+							Lees het hele bericht (5 minuten)
+						</a>
+					</div>
+				</article>
+				<article class="article">
+					<figure class="article-head">
+						<img src="./assets/Verhaal5.png" alt="Stijloefeningen (45) – Hongerwinter">
+					</figure>
+					<div class="article-body">
+						<div class="article-body-info">
+							<div>
+								2.291 <i class="far fa-eye"></i>
+							</div>
+							<div>
+								5.0 
+								<span class="article-body-info-stars">
+									<i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+								</span>
+							</div>
+						</div>
+						<div class="article-body-title">
+							<h4>
+								Stijloefeningen (45) – Hongerwinter
+							</h4>
+							<i class="far fa-heart"></i>
+						</div>
+						<p class="article-body-author">Posted on 5 april 2011 by Molovich</p>
+						<p class="article-body-excerpt">
+							Mijn voeten en handen heb ik ingezwachteld tegen de kou. Kranten tegen m’n borst. Ik duw een handkar voort waarin mijn zoon vredig ligt te slapen. Centraal Station. De tramrails liggen er kaal bij…
+						</p>
+						<div class="article-body-category">
+							<p>Sfeerwoord(en): Somber</p>
+							<p>Genre: Psychologisch verhaal</p>
+						</div>
+						<a href="./detail.html" class="article-body-link">
+							Lees het hele bericht (5 minuten)
+						</a>
+					</div>
+				</article>
+				<article class="article">
+					<figure class="article-head">
+						<img src="./assets/Verhaal6.png" alt="Stijloefeningen (20) - Littérature définitionnelle">
+					</figure>
+					<div class="article-body">
+						<div class="article-body-info">
+							<div>
+								1.826 <i class="far fa-eye"></i>
+							</div>
+							<div>
+								5.0 
+								<span class="article-body-info-stars">
+									<i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+								</span>
+							</div>
+						</div>
+						<div class="article-body-title">
+							<h4>
+								Stijloefeningen (20) - Littérature définitionnelle
+							</h4>
+							<i class="far fa-heart"></i>
+						</div>
+						<p class="article-body-author">Posted on 28 februari 2011 by Molovich</p>
+						<p class="article-body-excerpt">
+							Cilindervormige blikken trommel 21, met alle delen van het oppervlak op gelijke afstand van het middelpunt om twaalf uur ’s middags. Plaats waar de trein, tram of bus even stopt om passagiers in... 
+						</p>
+						<div class="article-body-category">
+							<p>Sfeerwoord(en): Aggressief</p>
+							<p>Genre: Psychologisch verhaal</p>
+						</div>
+						<a href="./detail.html" class="article-body-link">
+							Lees het hele bericht (5 minuten)
+						</a>
+					</div>
+				</article>
+				<article class="article">
+					<figure class="article-head">
+						<img src="./assets/Verhaal7.png" alt="Stijloefeningen (35) – Flaptekst">
+					</figure>
+					<div class="article-body">
+						<div class="article-body-info">
+							<div>
+								1.249 <i class="far fa-eye"></i>
+							</div>
+							<div>
+								5.0 
+								<span class="article-body-info-stars">
+									<i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+								</span>
+							</div>
+						</div>
+						<div class="article-body-title">
+							<h4>
+								Stijloefeningen (35) – Flaptekst
+							</h4>
+							<i class="far fa-heart"></i>
+						</div>
+						<p class="article-body-author">Posted on 22 februiari 2021 by Molovich</p>
+						<p class="article-body-excerpt">
+							In het weergaloze Stijloefeningen verhaalt Max J. Molovich op 99 verschillende manieren over zijn tocht naar de Openbare Bibliotheek Amsterdam in de hoop Stijloefeningen van Raymond...
+						</p>
+						<div class="article-body-category">
+							<p>Sfeerwoord(en): Vredig</p>
+							<p>Genre: Psychologisch verhaal</p>
+						</div>
+						<a href="./detail.html" class="article-body-link">
+							Lees het hele bericht (5 minuten)
+						</a>
+					</div>
+				</article>
+				<article class="article">
+					<figure class="article-head">
+						<img src="./assets/Verhaal8.png" alt="Stijloefeningen (26) – Nichterig">
+					</figure>
+					<div class="article-body">
+						<div class="article-body-info">
+							<div>
+								1.479 <i class="far fa-eye"></i>
+							</div>
+							<div>
+								5.0 
+								<span class="article-body-info-stars">
+									<i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+								</span>
+							</div>
+						</div>
+						<div class="article-body-title">
+							<h4>
+								Stijloefeningen (26) – Nichterig
+							</h4>
+							<i class="far fa-heart"></i>
+						</div>
+						<p class="article-body-author">Posted on 8 maart 2011 by Molovich</p>
+						<p class="article-body-excerpt">
+							Dus ik stap de bus uit, met mijn zoon in mijn wagen, en ik schrik me daar toch het apenlazarus zeg! Werkelijk heel de omgeving rond Centraal Station is open gebroken! Ik zweer...
+						</p>
+						<div class="article-body-category">
+							<p>Sfeerwoord(en): Geschrokken</p>
+							<p>Genre: Psychologisch verhaal</p>
+						</div>
+						<a href="./detail.html" class="article-body-link">
+							Lees het hele bericht (5 minuten)
+						</a>
+					</div>
+				</article>
+				<article class="article">
+					<figure class="article-head">
+						<img src="./assets/Verhaal9.png" alt="Stijloefeningen (74) – Bejaard">
+					</figure>
+					<div class="article-body">
+						<div class="article-body-info">
+							<div>
+								2.370 <i class="far fa-eye"></i>
+							</div>
+							<div>
+								5.0 
+								<span class="article-body-info-stars">
+									<i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+								</span>
+							</div>
+						</div>
+						<div class="article-body-title">
+							<h4>
+								Stijloefeningen (74) – Bejaard
+							</h4>
+							<i class="far fa-heart"></i>
+						</div>
+						<p class="article-body-author">Posted on 25 mei 2011 by Molovich</p>
+						<p class="article-body-excerpt">
+							De chauffeur kijkt verveeld maar vooral ook licht geïrriteerd via zijn achteruitkijkspiegel toe hoe ik samen met mijn kleinzoon, die in zijn kinderwagen ligt te slapen, bus 21 uitstap...						</p>
+						<div class="article-body-category">
+							<p>Sfeerwoord(en): Oud</p>
+							<p>Genre: Psychologisch verhaal</p>
+						</div>
+						<a href="./detail.html" class="article-body-link">
+							Lees het hele bericht (5 minuten)
+						</a>
+					</div>
+				</article>
+			</section>
+		</div>
+	</main>
+	<script src="./js/script.js"></script>
+</body>
+</html>
