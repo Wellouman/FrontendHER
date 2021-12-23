@@ -1,5 +1,8 @@
 # **Frontend development blok 1 voor studioinhalers - Proces verslag**
 
+Auteur: Jesse Welleman
+Website: https://wellouman.github.io/FrontendHER/
+
 ————————————————————————————————————————————————————————————————————————————————————————————————————————————
 
 ## **Bronnenlijst**
@@ -51,7 +54,7 @@ Tablet scherm 2:
 ￼
 Mobile scherm 2:
 
-![Screenshot](./assets/screenshot6.png)
+![Screenshot](./assets/Screenshot6.png)
 ￼
 
 ————————————————————————————————————————————————————————————————————————————————————
@@ -60,19 +63,19 @@ Mobile scherm 2:
 
 Breakdownschets 1: Alle content
 
-![Screenshot](./assets/screenshot7.png)
+![Screenshot](./assets/Screenshot7.png)
 ￼
 Breakdownschets 2: Header
 
-![Screenshot](./assets/screenshot8.png)
+![Screenshot](./assets/Screenshot8.png)
 
 Breakdownschets 3: Main
 
-![Screenshot](./assets/screenshot9.png)
+![Screenshot](./assets/Screenshot9.png)
 ￼
 Breakdownschets 4: Footer
 
-![Screenshot](./assets/screenshot10.png)￼
+![Screenshot](./assets/Screenshot10.png)￼
 
 ————————————————————————————————————————————————————————————————————————————————————
 
@@ -80,9 +83,9 @@ Breakdownschets 4: Footer
 
 Alle HTML is geschreven en voor twee pagina’s was dat niet heel erg lastig of tijdrovend. Gelukkig is dit iets wat ik in jaar 2 (2018-2019) al voldoende had afgesloten dus hier hoefde niet heel veel meer aan gedaan te worden. 
 
-￼![Screenshot](./assets/screenshot11.png)
+￼![Screenshot](./assets/Screenshot11.png)
 
-￼![Screenshot](./assets/screenshot12.png)
+￼![Screenshot](./assets/Screenshot12.png)
 
 
 ￼
@@ -95,14 +98,14 @@ Uiteraard gaan we er allereerst voor zorgen dat de website er op mobiel goed uit
 
 Uiteindelijk is het gelukt met display grid!  
 
-￼￼![Screenshot](./assets/screenshot13.png)
+￼￼![Screenshot](./assets/Screenshot13.png)
 
 
 ## **Voortgang 3 Mobile css - week 5**
 
 Na de uren die het heeft geduurd om de genereer functie te maken kreeg ik de grid en flexbox techniek behoorlijk onder de knie. Uiteraard nog wat moeilijkheden en brainfreezes tijdens de rest van de mobiele website maar uiteindelijk is dit allemaal goed gekomen. Een artikel was bijvoorbeeld best lastig met alle info die op specifieke plekken moest komen te staan. Er is gebruik gemaakt van een 1 row grid voor de mobiele versie die komende week veranderd gaat worden door middel van media queries. 
 
-￼￼￼![Screenshot](./assets/screenshot14.png)
+￼￼￼![Screenshot](./assets/Screenshot14.png)
 
 
 ## **Voortgang 4 Mediaqueries - week 5 & 6**
@@ -121,12 +124,12 @@ Er zijn een aantal elementen in de website die media queries nodig hebben om er 
 
 	728 en groter zorgt ervoor dat het genereer element de ruimte gaat innemen die mogelijk is. De uitklapbare genereer functie op mobile wordt omgezet naar een normale display. Uitklappen in de ruimte die 	het nu heeft is niet meer nodig.  
 
-￼￼￼￼![Screenshot](./assets/screenshot15.png)
+￼￼￼￼![Screenshot](./assets/Screenshot15.png)
 
 
 —>
 
-￼￼￼￼![Screenshot](./assets/screenshot16.png)
+￼￼￼￼![Screenshot](./assets/Screenshot16.png)
 
 
 
@@ -135,19 +138,19 @@ Er zijn een aantal elementen in de website die media queries nodig hebben om er 
 	Veranderen van grid binnen de genereer functie van 2 rijen naar 3. 
 	Genereer button moet onder derde rij komen te staan. 
 
-￼￼￼￼![Screenshot](./assets/screenshot17.png)
+￼￼￼￼![Screenshot](./assets/Screenshot17.png)
 
 
 - @media screen and (min-width: 1035px)
 
 	Filters veranderen van desktop naar mobiele versie. 
 ￼
-￼￼￼![Screenshot](./assets/screenshot18.png)
+￼￼￼![Screenshot](./assets/Screenshot18.png)
 
 
 —>
 
-￼￼￼![Screenshot](./assets/screenshot19.png)
+￼￼￼![Screenshot](./assets/Screenshot19.png)
 
 ￼
 
