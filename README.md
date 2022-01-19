@@ -3,6 +3,16 @@
 Auteur: Jesse Welleman
 Website: https://wellouman.github.io/FrontendHER/
 
+In jaar 2 van Communication & Multimedia Design ben ik helaas niet geslaagd voor het vak Frontend Development. Gelukkig krijg ik in het vierde jaar een kans om het vak met een voldoende af te kunnen sluiten. Ik ben begonnen waar ik gebleven was in het tweede jaar, javascript. Dit was het enige onderdeel waar ik destijds geen voldoende voor had gehaald. Ik heb overigens wel een paar aanpassingen gedaan in de css om het wat netter te schrijven dan dat ik daarvoor heb gedaan. Een developer van mijn werk heeft me daarbij geholpen. 
+
+Javascript vond en ik vind ik behoorlijk lastig. Ook hier heb ik hulp gekregen van een developer. De stappen die ik heb ondernomen om het deze keer beter onder de knie te krijgen zijn als volgt:
+
+- Tutorials kijken
+- Alle oefeningen maken die werden door Danny gegeven bij het vak
+- Alles bespreken, hulp vragen en nakijken bij de developer
+
+Deze drie aspecten hebben ervoor gezorgd dat ik een veel beter begrip kreeg van hoe javascript werkt en daarmee heb ik een aantal patterns in elkaar kunnen zetten. 
+
 ————————————————————————————————————————————————————————————————————————————————————————————————————————————
 
 ## **Bronnenlijst**
