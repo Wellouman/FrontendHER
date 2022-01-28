@@ -13,6 +13,11 @@ Javascript vond en ik vind ik behoorlijk lastig. Ook hier heb ik hulp gekregen v
 
 Deze drie aspecten hebben ervoor gezorgd dat ik een veel beter begrip kreeg van hoe javascript werkt en daarmee heb ik een aantal patterns in elkaar kunnen zetten. 
 
+Sinds mijn vorige beoordeling ben ik voor de herkansing gegaan en ik heb deze punten aangepast zodat het vak met een voldoende kan worden afgerond:
+
+- Headerings veranderd zodat de semantiek van de website klopt.
+
+
 ————————————————————————————————————————————————————————————————————————————————————————————————————————————
 
 ## **Bronnenlijst**
